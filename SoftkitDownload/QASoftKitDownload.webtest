@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WebTest Name="SoftKitDownload" Id="41948f86-d27b-4716-8f28-86c3608bbc87" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.e140df09-cc25-4fd2-8a3d-351b6ce5e15f.rec.webtestresult" ResultsLocale="">
+<WebTest Name="QASoftKitDownload" Id="367bd0ee-fd13-416c-bb55-bc0721713651" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.e140df09-cc25-4fd2-8a3d-351b6ce5e15f.rec.webtestresult" ResultsLocale="">
   <Items>
     <Comment CommentText="Launch" />
     <TransactionTimer Name="SC06_TC01_Launch">
       <Items>
-        <Request Method="GET" Guid="f0178655-a116-408c-a686-59b83aa50886" Version="1.1" Url="https://shopppd.bsigroup.com/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="f0178655-a116-408c-a686-59b83aa50886" Version="1.1" Url="https://shopqa.bsiuat.com/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <DependentRequests>
             <Request Method="GET" Guid="69480a6c-c843-48b6-89cc-e2709f8bdc84" Version="1.1" Url="https://connect.facebook.net/signals/config/184143989175715" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="v" Value="2.9.27" RecordedValue="2.9.27" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -17,7 +17,7 @@
             </Request>
             <Request Method="GET" Guid="60d4b1c0-ee06-4ba7-8fae-35191b856b41" Version="1.1" Url="https://px.ads.linkedin.com/collect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://px.ads.linkedin.com/collect?v=2&amp;fmt=js&amp;pid=224852%2C533012&amp;time=1604906273544&amp;url=https%3A%2F%2Fshopqa.bsiuat.com%2F&amp;liSync=true" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="v" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam9.v}}" UrlEncode="False" UseToGroupResults="False" />
@@ -29,7 +29,7 @@
             </Request>
             <Request Method="GET" Guid="43be3870-3863-4356-b7b0-7f57866ae5f2" Version="1.1" Url="https://pi.pardot.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -45,7 +45,7 @@
             </Request>
             <Request Method="GET" Guid="a3152f2a-bc03-4323-9fa3-b490136c6812" Version="1.1" Url="https://pi.pardot.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -61,7 +61,7 @@
             </Request>
             <Request Method="GET" Guid="ff958906-f0ba-46fe-a45e-4e9d33278ebe" Version="1.1" Url="https://pi.pardot.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -77,12 +77,12 @@
             </Request>
             <Request Method="GET" Guid="3d492e29-4ad8-4092-b5ff-c51658ccbbda" Version="1.1" Url="https://v1.addthisedge.com/live/boost/Sixpeo/_ate.track.config_resp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
             </Request>
             <Request Method="GET" Guid="25613933-1b70-41c7-b77c-5ed816bee076" Version="1.1" Url="https://m.addthis.com/live/red_lojson/300lo.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="si" Value="5fa8ed2117980c6c" RecordedValue="5fa8ed2117980c6c" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -122,7 +122,7 @@
             </Request>
             <Request Method="GET" Guid="56f43c36-2b94-496d-b644-86c416ad32ad" Version="1.1" Url="https://bat.bing.com/action/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ti" Value="25045286" RecordedValue="25045286" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -149,7 +149,7 @@
             </Request>
             <Request Method="GET" Guid="9038fa0c-477b-4114-84bb-cacef47f9b23" Version="1.1" Url="https://pages.bsigroup.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="conly" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -165,7 +165,7 @@
             </Request>
             <Request Method="GET" Guid="932c71db-7bdc-478a-a5d8-3dfc9c4eace5" Version="1.1" Url="https://page.bsigroup.com/analytics" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="conly" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -221,11 +221,11 @@
     <Comment CommentText="Click on login" />
     <TransactionTimer Name="SC06_TC02_Click on login">
       <Items>
-        <Request Method="GET" Guid="ff65707e-1d41-477f-a122-b4c6a85a4f23" Version="1.1" Url="https://shopppd.bsigroup.com/Login/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="ff65707e-1d41-477f-a122-b4c6a85a4f23" Version="1.1" Url="https://shopqa.bsiuat.com/Login/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <DependentRequests>
             <Request Method="GET" Guid="859482c2-9b31-4593-a76a-471610ddfc94" Version="1.1" Url="https://connect.facebook.net/signals/config/184143989175715" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/Login/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/Login/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="v" Value="2.9.27" RecordedValue="2.9.27" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -234,7 +234,7 @@
             </Request>
             <Request Method="GET" Guid="e107fb82-057a-4855-a9ce-e4c103e54a9a" Version="1.1" Url="https://px.ads.linkedin.com/collect" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/Login/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/Login/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="v" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam571.v}}" UrlEncode="False" UseToGroupResults="False" />
@@ -246,7 +246,7 @@
             </Request>
           </DependentRequests>
           <Headers>
-            <Header Name="Referer" Value="https://shopppd.bsigroup.com/" />
+            <Header Name="Referer" Value="https://shopqa.bsiuat.com/" />
           </Headers>
           <ExtractionRules>
             <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
@@ -390,9 +390,9 @@
     <Comment CommentText="Enter credentials and login" />
     <TransactionTimer Name="SC06_TC03_Enter credentials and login">
       <Items>
-        <Request Method="POST" Guid="a0d251c9-87a6-4c7a-b5af-2be334b5ffa8" Version="1.1" Url="https://shopppd.bsigroup.com/Login/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopppd.bsigroup.com/?srign=o" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="POST" Guid="a0d251c9-87a6-4c7a-b5af-2be334b5ffa8" Version="1.1" Url="https://shopqa.bsiuat.com/Login/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopqa.bsiuat.com/?srign=o" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="https://shopppd.bsigroup.com/Login/" />
+            <Header Name="Referer" Value="https://shopqa.bsiuat.com/Login/" />
           </Headers>
           <CorrelationExtractionRules>
             <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam16.rl" DisplayName="" Description="">
@@ -455,16 +455,16 @@
     <Comment CommentText="Navigate to my bsi" />
     <TransactionTimer Name="SC06_TC04_Navigate to My BSI">
       <Items>
-        <Request Method="GET" Guid="b6face23-699a-4320-9d69-bbce53fc9319" Version="1.1" Url="https://shopppd.bsigroup.com/My-BSi" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopppd.bsigroup.com/My-BSi/" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="b6face23-699a-4320-9d69-bbce53fc9319" Version="1.1" Url="https://shopqa.bsiuat.com/My-BSi" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopqa.bsiuat.com/My-BSi/" ReportingName="" IgnoreHttpStatusCode="False">
           <DependentRequests>
             <Request Method="GET" Guid="5805cee7-0193-43c9-8785-89e915e04247" Version="1.1" Url="https://v1.addthisedge.com/live/boost/Sixpeo/_ate.track.config_resp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSi/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSi/" />
               </Headers>
             </Request>
             <Request Method="GET" Guid="a789f549-c0a8-495b-975d-36fcb07174ed" Version="1.1" Url="https://m.addthis.com/live/red_lojson/300lo.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSi/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSi/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="si" Value="5fa8ed6711c2251a" RecordedValue="5fa8ed6711c2251a" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -503,12 +503,12 @@
             </Request>
             <Request Method="GET" Guid="80c652fe-d4b3-4be9-9aad-e439dfd5cf2b" Version="1.1" Url="https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSi/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSi/" />
               </Headers>
             </Request>
             <Request Method="GET" Guid="a2dabc94-4758-40f5-94be-d0010591e600" Version="1.1" Url="https://connect.facebook.net/signals/config/184143989175715" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSi/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSi/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="v" Value="2.9.27" RecordedValue="2.9.27" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -517,7 +517,7 @@
             </Request>
             <Request Method="GET" Guid="17965fc3-c13a-4dc4-bf64-2461c2ad50a1" Version="1.1" Url="https://bat.bing.com/action/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSi/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSi/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ti" Value="25045286" RecordedValue="25045286" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -543,7 +543,7 @@
             </Request>
             <Request Method="GET" Guid="a0169e1f-846b-4eac-a367-4deb5e546428" Version="1.1" Url="https://px.ads.linkedin.com/collect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSi/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSi/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="v" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam2177.v}}" UrlEncode="False" UseToGroupResults="False" />
@@ -555,7 +555,7 @@
             </Request>
           </DependentRequests>
           <Headers>
-            <Header Name="Referer" Value="https://shopppd.bsigroup.com/?srign=o" />
+            <Header Name="Referer" Value="https://shopqa.bsiuat.com/?srign=o" />
           </Headers>
           <CorrelationExtractionRules>
             <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2177.v" DisplayName="" Description="">
@@ -576,11 +576,11 @@
     <Comment CommentText="Navigate to My prder history page" />
     <TransactionTimer Name="SC06_TC05_Navigate to My Order History">
       <Items>
-        <Request Method="GET" Guid="ba4df7c0-b882-4159-9612-f6f5fe91bce6" Version="1.1" Url="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="ba4df7c0-b882-4159-9612-f6f5fe91bce6" Version="1.1" Url="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <DependentRequests>
             <Request Method="GET" Guid="117a7f83-43c8-4445-a8bc-069bb3336ba4" Version="1.1" Url="https://pi.pardot.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -596,7 +596,7 @@
             </Request>
             <Request Method="GET" Guid="429406f6-d0db-420a-8217-c7e78f232061" Version="1.1" Url="https://pi.pardot.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -612,7 +612,7 @@
             </Request>
             <Request Method="GET" Guid="8ee73534-0a01-4b5b-bca7-1beb1b7c5488" Version="1.1" Url="https://pi.pardot.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -628,7 +628,7 @@
             </Request>
             <Request Method="GET" Guid="e8a98040-3383-4560-a79d-519bc5d1bdca" Version="1.1" Url="https://connect.facebook.net/signals/config/184143989175715" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="v" Value="2.9.27" RecordedValue="2.9.27" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -637,7 +637,7 @@
             </Request>
             <Request Method="GET" Guid="8334612b-0d91-4ec4-9433-52d122e8aa1b" Version="1.1" Url="https://px.ads.linkedin.com/collect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="v" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam2849.v}}" UrlEncode="False" UseToGroupResults="False" />
@@ -649,7 +649,7 @@
             </Request>
             <Request Method="GET" Guid="08747306-13cb-4a1f-a565-e31330bf14ff" Version="1.1" Url="https://pages.bsigroup.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="conly" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -665,7 +665,7 @@
             </Request>
             <Request Method="GET" Guid="87004b52-7320-4ab0-b70e-1c6b60e3a542" Version="1.1" Url="https://page.bsigroup.com/analytics" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="conly" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -681,12 +681,12 @@
             </Request>
             <Request Method="GET" Guid="828ae19e-1380-4799-96de-88c8e6c3c8fd" Version="1.1" Url="https://v1.addthisedge.com/live/boost/Sixpeo/_ate.track.config_resp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
             </Request>
             <Request Method="GET" Guid="3836bd8d-b022-40ca-8fb9-b20950d9fac8" Version="1.1" Url="https://m.addthis.com/live/red_lojson/300lo.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="si" Value="5fa8ed76c596d715" RecordedValue="5fa8ed76c596d715" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -725,12 +725,12 @@
             </Request>
             <Request Method="GET" Guid="1a976742-9d2c-4f2b-ac4c-473bd906be37" Version="1.1" Url="https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
             </Request>
             <Request Method="GET" Guid="7ea5cda7-cdd6-4eb1-93e4-55937715d3d0" Version="1.1" Url="https://bat.bing.com/action/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
-                <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+                <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
               </Headers>
               <QueryStringParameters>
                 <QueryStringParameter Name="ti" Value="25045286" RecordedValue="25045286" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -755,7 +755,7 @@
             </Request>
           </DependentRequests>
           <Headers>
-            <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSi/" />
+            <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSi/" />
           </Headers>
           <ExtractionRules>
             <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
@@ -800,9 +800,9 @@
     <Comment CommentText="Click on order number" />
     <TransactionTimer Name="SC06_TC06_Click on order ID">
       <Items>
-        <Request Method="POST" Guid="c7ff33b8-9773-488d-b348-d3927aca914c" Version="1.1" Url="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopppd.bsigroup.com/My-BSI/My-Order-History/Order-Detail/?oid=SQA-2286927" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="POST" Guid="c7ff33b8-9773-488d-b348-d3927aca914c" Version="1.1" Url="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopqa.bsiuat.com/My-BSI/My-Order-History/Order-Detail/?oid=SQA-2286927" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/" />
+            <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/" />
           </Headers>
           <ExtractionRules>
             <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
@@ -896,9 +896,9 @@
     <Comment CommentText="Click on soft copy kit download" />
     <TransactionTimer Name="SC06_TC07_Click on kit download">
       <Items>
-        <Request Method="POST" Guid="5f87f3ba-6510-4718-940f-473336d4acc5" Version="1.1" Url="https://shopppd.bsigroup.com/My-BSI/My-Order-History/Order-Detail/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopppd.bsigroup.com/Download.aspx?pidList=000000000030299661,000000000030330665,000000000030212050,000000000030167165,000000000030211042,000000000030238098,000000000030233290,000000000030256519&amp;pgid=160568&amp;oid=SQA-2286927&amp;cinfo=http://shopqa.bsiuat.com/" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="POST" Guid="5f87f3ba-6510-4718-940f-473336d4acc5" Version="1.1" Url="https://shopqa.bsiuat.com/My-BSI/My-Order-History/Order-Detail/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopqa.bsiuat.com/Download.aspx?pidList=000000000030299661,000000000030330665,000000000030212050,000000000030167165,000000000030211042,000000000030238098,000000000030233290,000000000030256519&amp;pgid=160568&amp;oid=SQA-2286927&amp;cinfo=http://shopqa.bsiuat.com/" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/Order-Detail/?oid=SQA-2286927" />
+            <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/Order-Detail/?oid=SQA-2286927" />
           </Headers>
           <QueryStringParameters>
             <QueryStringParameter Name="oid" Value="{{DataSource2.OrderID#csv.ï»¿OrderID}}" RecordedValue="SQA-2286927" CorrelationBinding="{{QueryStringParam6174.oid}}" UrlEncode="False" UseToGroupResults="False" />
@@ -917,9 +917,9 @@
     <Comment CommentText="Logout" />
     <TransactionTimer Name="SC06_TC99_Logout">
       <Items>
-        <Request Method="GET" Guid="e8f5d66b-8a11-4390-b968-0bbf441de380" Version="1.1" Url="https://shopppd.bsigroup.com/Login/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopppd.bsigroup.com/" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="e8f5d66b-8a11-4390-b968-0bbf441de380" Version="1.1" Url="https://shopqa.bsiuat.com/Login/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://shopqa.bsiuat.com/" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="https://shopppd.bsigroup.com/My-BSI/My-Order-History/Order-Detail/?oid=SQA-2286927" />
+            <Header Name="Referer" Value="https://shopqa.bsiuat.com/My-BSI/My-Order-History/Order-Detail/?oid=SQA-2286927" />
           </Headers>
           <CorrelationExtractionRules>
             <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam6218.v" DisplayName="" Description="">
